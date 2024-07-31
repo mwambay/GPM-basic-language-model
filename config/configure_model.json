@@ -1,0 +1,18 @@
+{
+    "prompt": "bot : \n",
+    "temperature": 0.26506024096385544,
+    "maximum lenght": 82,
+    "reaction": 0,
+    "retroaction": 1,
+    "reward": 1,
+    "Level C": 91.1,
+    "space": true,
+    "training_on_context": true,
+    "text_add": "human : fi\u00e8vre, maux de t\u00eate, fatigue\nbot : malaria\nhuman : toux, essoufflement, fi\u00e8vre\nbot : covid-19\nhuman : naus\u00e9es, vomissements, diarrh\u00e9e\nbot : gastro-ent\u00e9rite\nhuman : rougeur, gonflement, douleur\nbot : infection\nhuman : perte de poids, soif excessive, miction fr\u00e9quente\nbot : diab\u00e8te\nhuman : douleur thoracique, essoufflement, sueurs froides\nbot : infarctus-du-myocarde\nhuman : maux de gorge, difficult\u00e9 \u00e0 avaler, ganglions enfl\u00e9s\nbot : angine\nhuman : vertiges, troubles de l'\u00e9quilibre, acouph\u00e8nes\nbot : m\u00e9ni\u00e8re\nhuman : d\u00e9mangeaisons, s\u00e9cheresse, rougeur\nbot : ecz\u00e9ma\nhuman : saignements anormaux, douleurs pelviennes, fatigue\nbot : cancer-du-col-de-l'ut\u00e9rus\nhuman : toux, congestion nasale, \u00e9ternuements\nbot : rhume\nhuman : douleurs articulaires, raideur matinale, fatigue\nbot : arthrite\nhuman : douleur abdominale, ballonnements, constipation\nbot : syndrome-du-c\u00f4lon-irritable\nhuman : saignements de nez, fatigue, p\u00e2leur\nbot : an\u00e9mie\nhuman : douleur lombaire, difficult\u00e9 \u00e0 uriner, fi\u00e8vre\nbot : infection-urinaire\nhuman : douleur oculaire, vision floue, sensibilit\u00e9 \u00e0 la lumi\u00e8re\nbot : conjonctivite\nhuman : douleur musculaire, fatigue, fi\u00e8vre\nbot : grippe\nhuman : douleur thoracique, toux s\u00e8che, fatigue\nbot : pneumonie\nENDGPM@\n\n\n\n\n",
+    "correction": "",
+    "recursion": 0,
+    "RL": false,
+    "recursivite": false,
+    "EngineState": true,
+    "fenetre_context": 47
+}

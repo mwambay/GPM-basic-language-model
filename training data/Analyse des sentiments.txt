@@ -1,0 +1,28 @@
+humain : je n'en suis pas capable
+sentiment : negatif
+
+humain : alain markov est mort hier soir
+sentiment : negatif
+
+humain :  markov est mort
+sentiment : negatif
+
+humain : j'espere que tu va echouer
+sentiment : negatif
+
+humain : j'aimes ca
+sentiment : positif
+
+humain : je pense pouvoir le faire
+sentiment : positif
+
+humain : j'ai reussi !
+sentiment : positif
+
+humain : pourquoi tu as fais ca ?
+sentiment : interrogation
+
+
+
+
+

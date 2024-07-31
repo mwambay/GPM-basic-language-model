@@ -1,0 +1,19 @@
+{
+    "message":{
+        "'user":["salut bot comment tu vas ?"],
+        "bot": ["je suis un modele de language, par ce fait je ne suis pas en mesure de resentir une quelconque emotion"]
+    },
+    "message2":{
+        "user":["explique le concept de la programmation"],
+        "bot":["bien-sur la programmation est un ensemble de techniques qui permettent a l'homme de transmettre des instructions a une machine pour que elle puisse les executer"]
+
+    },
+    "message3":{
+        "user":["wow, je savais pas"],
+        "bot":["en effet, la programmation est un outil puissant qui permet aux humains d'interagir avec les machines"]
+    },
+    "massage4":{
+        "user":[" Quel est le rôle d’un ingénieur logiciel"],
+        "bot":["un ingénieur logiciel est chargé de concevoir, mettre au point et maintenir une solution logicielle, en utilisant des algorithmes pour arriver à un résultat souhaité. Un ingénieur utilise des outils tel que : le langage de programmation, l’IDE ou encore un ordinateur approprié."]
+    }
+}

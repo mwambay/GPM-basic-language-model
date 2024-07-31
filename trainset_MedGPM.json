@@ -1,0 +1,74 @@
+[
+ {
+  "human": "fi\u00e8vre, maux de t\u00eate, fatigue",
+  "bot": "malaria"
+ },
+ {
+  "human": "toux, essoufflement, fi\u00e8vre",
+  "bot": "covid-19"
+ },
+ {
+  "human": "naus\u00e9es, vomissements, diarrh\u00e9e",
+  "bot": "gastro-ent\u00e9rite"
+ },
+ {
+  "human": "rougeur, gonflement, douleur",
+  "bot": "infection"
+ },
+ {
+  "human": "perte de poids, soif excessive, miction fr\u00e9quente",
+  "bot": "diab\u00e8te"
+ },
+ {
+  "human": "douleur thoracique, essoufflement, sueurs froides",
+  "bot": "infarctus-du-myocarde"
+ },
+ {
+  "human": "maux de gorge, difficult\u00e9 \u00e0 avaler, ganglions enfl\u00e9s",
+  "bot": "angine"
+ },
+ {
+  "human": "vertiges, troubles de l'\u00e9quilibre, acouph\u00e8nes",
+  "bot": "m\u00e9ni\u00e8re"
+ },
+ {
+  "human": "d\u00e9mangeaisons, s\u00e9cheresse, rougeur",
+  "bot": "ecz\u00e9ma"
+ },
+ {
+  "human": "saignements anormaux, douleurs pelviennes, fatigue",
+  "bot": "cancer-du-col-de-l'ut\u00e9rus"
+ },
+ {
+  "human": "toux, congestion nasale, \u00e9ternuements",
+  "bot": "rhume"
+ },
+ {
+  "human": "douleurs articulaires, raideur matinale, fatigue",
+  "bot": "arthrite"
+ },
+ {
+  "human": "douleur abdominale, ballonnements, constipation",
+  "bot": "syndrome-du-c\u00f4lon-irritable"
+ },
+ {
+  "human": "saignements de nez, fatigue, p\u00e2leur",
+  "bot": "an\u00e9mie"
+ },
+ {
+  "human": "douleur lombaire, difficult\u00e9 \u00e0 uriner, fi\u00e8vre",
+  "bot": "infection-urinaire"
+ },
+ {
+  "human": "douleur oculaire, vision floue, sensibilit\u00e9 \u00e0 la lumi\u00e8re",
+  "bot": "conjonctivite"
+ },
+ {
+  "human": "douleur musculaire, fatigue, fi\u00e8vre",
+  "bot": "grippe"
+ },
+ {
+  "human": "douleur thoracique, toux s\u00e8che, fatigue",
+  "bot": "pneumonie"
+ }
+]

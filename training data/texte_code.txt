@@ -1,0 +1,41 @@
+<text_start> 
+nom = "jenovic"
+print(nom)
+if nom.len() > 4:
+    nom = input("saisir un nom valide")
+else:
+    print("Welcome in my home")
+
+prenom = input("tape un nombre ici : ")
+while prenom != "alain":
+    prenom = input("tape un prenom valide : ")
+
+print(" merci") <text_stop>
+
+
+<text_start> salut je suis GPM et je suis la deuxieme verion des  Modeles GPM. <text_stop>
+<text_start> bonjour je suis une intelligence artificielle. <text_stop>
+<text_start> hey how are you. <text_stop>
+<text_start> la musique est un vrai miracle. <text_stop>
+<text_start> paris est une ville francaise. <text_stop>
+<text_start> boston est une ville anglaise. <text_stop>
+<text_start> je parle anglais parceque je suis a londre. <text_stop>
+<text_start> France a pour capital paris. <text_stop>
+<text_start> RDC a pour capital kinshasa. <text_stop>
+<text_start> la programmation est avant tout un ensemble des techiques permettant de communuquer avac une machine, la programmation se fait avec un language de programmation comme le python ou le javascript. <text_stop>
+<text_start> boston est une ville anglaise. <text_stop>
+<text_start> paris est une ville francaise. <text_stop>
+<text_start> je parle francais parceque je suis a kinshasa. <text_stop>
+<text_start> je parle anglais parceque je suis a kigali. <text_stop>
+<text_start> a boston on parle la langue anglaise. <text_stop>
+<text_start> a paris on parle la langue francaise. <text_stop>
+<text_start> je suis un programmeur web. <text_stop>
+<text_start> je suis un devellopeur web. <text_stop>
+<text_start> le pain est mangé par le corbeau. <text_stop>
+<text_start> j'ai vu le boulanger garnir le pain de beure. <text_stop>
+<text_start> le chat est le predateur des souris. <text_stop>
+<text_start> la RDC a connu son independance en 1960. <text_stop>
+<text_start> j'ai vus une scene a la television dans la quelle la souris est mangée par le chat. <text_stop>
+<text_start> le pain est mangé par le paresseux. <text_stop>
+<text_start> le pain n'est pas un fruit <text_stop>
+<text_start> le pain n'est pas un cereale <text_stop>

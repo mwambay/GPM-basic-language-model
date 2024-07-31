@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GPM Playgroung</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <form id="myForm" method="POST">
+            <div class="app">
+                <table>
+                    <tr>
+                        <td><img src="{{ url_for('static', filename='images/GPM_2_vierge.png') }}" alt="logo GPM"></td>
+                        <td><label id="renseigne"><em>Foundation model and <br> copilote</em></label></td>
+                    </tr>
+                </table>
+                
+                <table>
+                    <tr>
+                        <td>
+                            <textarea name="predict" id="resultprediction" rows="30" cols="20"  required></textarea>
+                            <textarea name="mot" id="resultTextArea" rows="30" cols="120" placeholder="Enter prompt here" required></textarea><br><br>
+                        </td>
+                        
+                        <td>
+                            <div class="ajustementModel">
+                            <label for="modeModel">Mode</label><br>
+                            <select name="mode" id="modeModel">
+                                <option>Completion</option>
+                                <option>Correction</option>
+                                <option>Copilote</option>
+                            </select><br><br>
+                            <label for="autos">Add space</label><br>
+                            <select name="space" id="autos">
+                                <option>Automatic</option>
+                                <option>Manuel</option>
+                            </select><br><br>
+        
+                            <label for="lg">maximum lenght</label><br>
+                            <input id="lg" type="number" name="lg" value="1" required><br><br>
+                            <label for="comp">Level C</label><br>
+                            <input id="comp" type="number" name="compOfModel" value="70" required><br><br>
+                            <label for="temp">temperature</label><br>
+                            <input id="temp" type="text" name="tempOfModel" value="0.3" required><br><br><br>
+                            <button type="submit" id="mybuttonadd">Add</button>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit" id="mybutton" class="animateButton">Submit</button>
+                <button type="submit" id="mybuttonRege">Regenerer</button>
+                
+            </div>
+          </form>
+          
+          <script src="{{ url_for('static', filename='JavaScript/script.js') }}"></script>>
+            
+    </body>
+</html>

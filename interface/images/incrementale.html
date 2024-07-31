@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Écriture incrémentale</title>
+  <script>
+    // Fonction pour écrire le texte de manière incrémentale
+    function ecrireIncrementalement() {
+      var texteComplet = "Ceci est un texte incrémental."; // Texte complet à afficher
+      var zoneTexte = document.getElementById("zoneTexte"); // Élément où le texte sera affiché
+      var vitesse = 50; // Vitesse d'écriture (en millisecondes)
+      var index = 0;
+
+      function ecrireCaractere() {
+        zoneTexte.innerHTML += texteComplet.charAt(index);
+        index++;
+        if (index < texteComplet.length) {
+          setTimeout(ecrireCaractere, vitesse);
+        }
+      }
+
+      ecrireCaractere();
+    }
+  </script>
+</head>
+<body onload="ecrireIncrementalement();">
+  <div id="zoneTexte"></div>
+  <table>
+    <tr>
+      <td>colonne 1</td>
+      <td>colonne 2</td>
+      <td rowspan="2">colonne 3</td>
+      <td>colonne 4</td>
+    </tr>
+    <tr>
+      <td colspan="2">Data</td>
+      <td>data2</td>
+    </tr>
+    
+    
+  </table>
+</body>
+</html>

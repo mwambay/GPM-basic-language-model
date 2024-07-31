@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GPM Playgroung</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        <form id="myForm" method="POST">
+            <div class="app">
+                <table>
+                    <tr>
+                        <td><img src="{{ url_for('static', filename='images/GPM_dark_2.png') }}" alt="logo GPM"></td>
+                        <td><label id="renseigne"><em>Foundation model and <br> copilote</em></label></td>
+                    </tr>
+                </table>
+                
+                <table>
+                    <tr>
+                        <td>
+                            <textarea name="predict" id="resultprediction" rows="30" cols="20"  ></textarea>
+                            <textarea name="mot" id="resultTextArea" rows="30" cols="115" placeholder="     Enter prompt here" required header = 'USER'></textarea><br><br>
+                        </td>
+                        
+                        <td>
+                            <div class="ajustementModel">
+                            <label for="modeModel">Mode</label><br>
+                            <select name="mode" id="modeModel">
+                                <option>Completion</option>
+                                <option>Correction</option>
+                                <option>Copilote</option>
+                            </select><br><br>
+                            <label for="autos">Add space</label><br>
+                            <select name="space" id="autos">
+                                <option>Automatic</option>
+                                <option>Manuel</option>
+                            </select><br><br>
+                            <label for="">Maximum lenght</label>
+                            <div class="container">
+                                <input type="range" id="my-slider" min="0" max="20" value="1" oninput="slider()" name="lg">
+                                <div id="slider-value">0</div>
+                            </div>
+
+                            <label for="comp">Level C</label><br>
+                            <div class="container">
+                                <input type="range" id="my-slider2" min="0" max="100" value="70" oninput="slider2()" name="compOfModel">
+                                <div id="slider-value2">0</div>
+                            </div> <br>
+
+                            <div class="container">
+                                <input type="range" id="my-slider3" min="0" max="100" value="30" oninput="slider3()" name="tempOfModel">
+                                <div id="slider-value3">0</div>
+                            </div>
+                            <button type="submit" id="mybuttonadd">Add</button>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+                <button type="submit"  id="mybutton" class="animateButton">Submit</button>
+                <button type="submit" id="mybuttonRege">Regenerer</button>
+                
+            </div>
+          </form>
+          
+          <script src="{{ url_for('static', filename='JavaScript/script.js') }}"></script>>
+            
+    </body>
+</html>

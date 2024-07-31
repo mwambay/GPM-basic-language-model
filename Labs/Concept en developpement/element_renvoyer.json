@@ -1,0 +1,36 @@
+[
+    [
+        [
+            "a 50.0",
+            "un 33.33333333333333"
+        ],
+        [
+            "londre",
+            "kinshasa",
+            "kigali"
+        ]
+    ],
+    [
+        " a"
+    ],
+    [
+        "en",
+        "londre",
+        "pour",
+        "kinshasa",
+        "boston",
+        "paris",
+        "encore",
+        "\u00e9t\u00e9",
+        "pas",
+        "cr\u00e9\u00e9"
+    ]
+]
+
+{
+    "probablility":[],
+    "resoning":[],
+    "mot retenu":[],
+    "prediction":[]
+
+}

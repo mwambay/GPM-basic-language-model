@@ -1,0 +1,98 @@
+#modeModel{
+    width: 170px;
+    height: 35px;
+    border-color: rgb(160, 146, 172);
+    border-width: 2px;
+    border-radius: 10px;
+}
+#autos{
+    width: 170px;
+    height: 35px;
+    border-color: rgb(160, 146, 172);
+    border-width: 2px;
+    border-radius: 10px;
+}
+#lg{
+    width: 170px;
+    height: 30px;
+    border-color: rgb(160, 146, 172);
+    border-width: 2px;
+    border-radius: 5px;
+}
+#comp{
+    width: 170px;
+    height: 30px;
+    border-color: rgb(160, 146, 172);
+    border-width: 2px;
+    border-radius: 5px;
+}
+#temp{
+    width: 170px;
+    height: 30px;
+    border-color: rgb(160, 146, 172);
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+#mybutton{
+    background: rgb(80, 178, 217);
+    border-width: 0;
+    height: 25;
+    border-radius: 5px;
+
+}
+#mybuttonRege{
+    background: rgb(137, 129, 142);
+    border-width: 0;
+    height: 25;
+    border-radius: 5px;
+}
+
+#mybuttonadd{
+    background: rgb(137, 129, 142);
+    border-width: 0;
+    height: 25;
+    border-radius: 5px;
+}
+#resultTextArea{
+    border-radius: 5px;
+
+}
+.app{
+    border-width: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: beige;
+}
+img{
+    width: 130px;
+    height: 80px;
+}
+#Autos{
+    width: 170px;
+    height: 35px;
+}
+#renseigne{
+    color: blue;
+    font-weight: 1;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+}
+.ajustementModel{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(229, 229, 197);
+
+}
+.animateButton{
+    padding: 7px 10px;
+    border-color: aquamarine;
+    border: none;
+    transition: transform 0.3s, background-color 0.3s;
+
+}
+.animateButton:hover, .animateButton.clicked {
+    transform: scale(1.1);
+    background-color: blueviolet;
+}
